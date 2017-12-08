@@ -14,18 +14,18 @@
 
 }
 
-#character {
+#spaceship {
     position: absolute;
-    top: 50%;
-    left: 50px;
+    top: 0;
+    left: 0;
     height: 100px;
     width: 100px;
 }
 
 #ufo {
     position: absolute;
-    top: 50%;
-    right: 50px;
+    top: 0;
+    left: 0;
     height: 100px;
     width: 100px;
 }
