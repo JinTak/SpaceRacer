@@ -26,11 +26,12 @@
 .main h1 {
     /* border: 1px solid lime; */
     color: #fff;
-    font-size: 125px;
+    font-size: 110px;
     font-family: 'Bungee', sans-serif;
-    text-shadow: 0 0 20px blue;
-    margin-bottom: 50px;
-    animation: fadeIn 1.5s ease-in-out;
+    text-shadow: 0 0 30px #7FDBFF;
+    margin-bottom: 100px;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    
 }
 
 @keyframes fadeIn {
@@ -39,8 +40,7 @@
     }
     100% { 
         opacity: 1; 
-        color: white;
-        transform: rotateY(360deg);
+        transform: scale(1.3);
     }
 }
 
@@ -51,12 +51,12 @@
     font-family: 'Bungee', sans-serif;
     text-decoration: none;
     padding: 15px;
-    border: 5px solid steelblue;
+    border: 5px solid #7FDBFF;
     border-radius: 10px;
     animation: fadeIn 1s ease-in;
     transition: all .4s ease;
 }
 
 a:hover {
-    box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 50px #fff;
 }

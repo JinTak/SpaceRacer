@@ -1,4 +1,5 @@
 console.log('javascript is working...');
+console.log(window.length);
 
 var ufo = document.getElementById('ufo');
 var spaceship = document.getElementById('spaceship');
@@ -8,7 +9,6 @@ let ufoPosY = 0;
 
 let spaceshipPosX = 0; 
 let spaceshipPosY = 0;
-
 
 // ufo.addEventListener('keyup', function(e){
 //     console.log(e);
