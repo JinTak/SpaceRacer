@@ -1,9 +1,11 @@
+/* Global Styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styling for background image */
 .container {
     height: 100vh;
     width: 100%;
@@ -13,6 +15,7 @@
 
 }
 
+/* Styling for Main Text */
 .main {
     width: 900px;
     /* border: 2px solid pink; */
@@ -22,7 +25,6 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 .main h1 {
     /* border: 1px solid lime; */
     color: #fff;
@@ -34,6 +36,7 @@
     
 }
 
+/* Animation Styling */
 @keyframes fadeIn {
     0% { 
         opacity: 0; 
@@ -44,7 +47,7 @@
     }
 }
 
-
+/* Styling for Play button */
 .main a {
     color: #fff;
     font-size: 30px;
