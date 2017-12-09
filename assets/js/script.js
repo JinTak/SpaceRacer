@@ -1,6 +1,4 @@
-console.log('javascript is working...');
-console.log(window.length);
-
+// Global Variables: Game Piece Positions and Counter
 var ufo = document.getElementById('ufo');
 var spaceship = document.getElementById('spaceship');
 
@@ -12,10 +10,7 @@ let spaceshipPosX = 0;
 let spaceshipPosY = 45;
 let spaceshipCounter = 0;
 
-// ufo.addEventListener('keyup', function(e){
-//     console.log(e);
-// });
-
+// This function listens for keyup events 
 document.addEventListener('keyup', function(e){
     // console.log(e.keyCode);
 
@@ -93,12 +88,7 @@ document.addEventListener('keyup', function(e){
         
     }
 
-    // function moveUp() { 
-    //     spaceshipPosY++;
-    //     spaceship.style.top = spaceshipPosY + "vh";
-    // }
-
-
+    // This function will remove bitcoin as soon as one player wins
     function removeBitcoin(){
         var bitcoin = document.getElementById('bitcoin');
         bitcoin.remove();
