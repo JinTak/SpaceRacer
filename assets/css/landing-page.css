@@ -63,3 +63,29 @@
 a:hover {
     box-shadow: 0 0 50px #fff;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 360px) {
+    .main h1 {
+        /* border: 1px solid lime; */
+        color: #fff;
+        font-size: 30px;
+        font-family: 'Bungee', sans-serif;
+        text-shadow: 0 0 30px #7FDBFF;
+        margin-bottom: 100px;
+        animation: fadeIn 1.5s ease-in-out forwards;
+        
+    }
+
+    .main a {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Bungee', sans-serif;
+        text-decoration: none;
+        padding: 10px;
+        border: 5px solid #7FDBFF;
+        border-radius: 10px;
+        animation: fadeIn 1s ease-in;
+        transition: all .4s ease;
+    }
+}
