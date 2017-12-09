@@ -25,16 +25,103 @@
 
 #spaceship {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 45vh;
+    right: 0;
     height: 100px;
     width: 100px;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
 }
 
 #ufo {
     position: absolute;
-    top: 0;
+    top: 50vh;
     left: 0;
     height: 100px;
     width: 100px;
+    transform: translateY(-50%);
+}
+
+#instructions {
+    /* border: 1px solid pink; */
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #fff;
+    font-family: 'Bungee', sans-serif;
+    text-shadow: 0 0 10px #7FDBFF;
+    
+}
+
+#instructions h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+#winText {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Bungee', sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    text-shadow: 0 0 10px #7FDBFF;
+    
+}
+
+.won {
+    animation-duration: 1.5s;
+    animation-name: winning;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-inout;
+    animation-fill-mode: forwards;
+}
+
+/* .remove {
+    animation-duration: 1.5s;
+    animation-name: blowup;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-inout;
+    animation-fill-mode: forwards;
+}
+
+@keyframes blowup {
+    0% {
+        
+    }
+    50% {
+        transform: scale(2);
+    }
+    75% {
+        transfrom: scale(1);
+    }
+    100% {
+        transform: skewX(90deg); 
+    }
+    100% {
+        transform: skewX(90deg); 
+    }
+} */
+
+@keyframes winning{
+    0% {
+        color: white;
+
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: aqua;
+    }
+    75% {
+        color: red;
+    }
+    100% {
+        color: white;
+        transform: scale(2) rotateY(360deg);
+    }
 }
